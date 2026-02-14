@@ -1,0 +1,28 @@
+Components for gamified learning
+
+1. Leaderboard
+- add search bar to find friend 
+- give 5 hardcoded categories to llm and tell him to classify him into one of them
+
+
+
+2. Streak
+
+
+3. Your branches
+
+-- hardcode branches based on topic (5 topics)
+-- design levels in each branch
+
+
+4. Input window - intial
+- limit to tech roadmap (sys prompt for llm)
+
+
+5. Logging window
+
+
+
+--- LLM
+Decide with category and a decide the level at which he is at
+
