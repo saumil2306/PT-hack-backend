@@ -1,0 +1,54 @@
+{
+  "emission_factors": {
+    "electricity": {
+      "coal": 0.95,
+      "natural_gas": 0.45,
+      "solar": 0.05,
+      "wind": 0.01,
+      "hydro": 0.02,
+      "nuclear": 0.01,
+      "grid_average": 0.42,
+      "unit": "kgCO2e/kWh"
+    },
+    "transport": {
+      "road_truck": 0.10,
+      "road_van": 0.15,
+      "rail": 0.03,
+      "sea_freight": 0.01,
+      "air_freight": 0.60,
+      "unit": "kgCO2e/tonne-km"
+    },
+    "materials": {
+      "steel": 1.80,
+      "aluminum": 8.00,
+      "plastic_pe": 2.50,
+      "plastic_pp": 1.80,
+      "paper": 0.90,
+      "glass": 0.85,
+      "concrete": 0.13,
+      "cotton": 5.00,
+      "polyester": 6.00,
+      "unit": "kgCO2e/kg"
+    },
+    "manufacturing": {
+      "machining": 0.50,
+      "injection_molding": 1.20,
+      "extrusion": 0.80,
+      "casting": 1.50,
+      "assembly": 0.10,
+      "unit": "kgCO2e/kg_processed"
+    },
+    "waste": {
+      "landfill": 0.58,
+      "incineration": 0.40,
+      "recycling": 0.05,
+      "composting": 0.02,
+      "unit": "kgCO2e/kg"
+    }
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "source": "Compiled from IPCC, EPA, and DEFRA emission factor databases",
+    "last_updated": "2025-01-01"
+  }
+}
